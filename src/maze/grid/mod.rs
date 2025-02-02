@@ -11,7 +11,7 @@ type TransitResult<T> = Result<T, TransitError>;
 pub struct Grid {
     pub width: usize,
     pub height: usize,
-    oub cells: Vec<Cell>,
+    pub cells: Vec<Cell>,
     pub cell_statuses: Vec<CellStatus>,
 }
 
