@@ -9,10 +9,10 @@ use std::{fmt};
 type TransitResult<T> = Result<T, TransitError>;
 
 pub struct Grid {
-    width: usize,
-    height: usize,
-    cells: Vec<Cell>,
-    cell_statuses: Vec<CellStatus>,
+    pub width: usize,
+    pub height: usize,
+    oub cells: Vec<Cell>,
+    pub cell_statuses: Vec<CellStatus>,
 }
 
 impl Grid {
