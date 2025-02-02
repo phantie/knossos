@@ -4,7 +4,7 @@
 //! mazes.
 
 mod builder;
-mod grid;
+pub mod grid;
 #[allow(clippy::module_inception)]
 mod maze;
 mod errors;
